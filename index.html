@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CEIK Technology – Gestão de Estoque Inteligente</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;1,400&family=Space+Grotesk:wght@500;600;700&family=Syne:wght@700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <header id="navbar">
+        <nav class="nav-container" aria-label="Navegação principal">
+            <a href="#inicio" class="nav-logo">
+                <img src="logoceikbranco2.png" alt="CEIK Technology" class="nav-logo-img">
+            </a>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#sobre">Sobre Nós</a></li>
+                <li><a href="#produto">O Produto</a></li>
+                <li><a href="#features">Funcionalidades</a></li>
+                <li><a href="#equipe">Equipe</a></li>
+                <li><a href="#contato" class="nav-cta">Contato</a></li>
+            </ul>
+            <button class="hamburger" id="hamburger" aria-label="Abrir menu mobile" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- ===== HERO ===== -->
+        <section class="hero" id="inicio">
+            <div class="hero-dots" aria-hidden="true"></div>
+            <div class="hero-inner">
+                <header class="hero-content">
+                    <span class="hero-tag">✨ Novo · Sistema Web de Gestão de Estoque</span>
+                    <h1 class="hero-title">
+                        Chega de perder produtos <span>por falta de controle</span>.
+                    </h1>
+                    <p class="hero-sub">
+                        A CEIK Technology desenvolveu um sistema fácil de usar para microempreendedores. Cadastre produtos, controle entradas e saídas, receba alertas automáticos e emita pré-notas fiscais — tudo em um só lugar.
+                    </p>
+                    <div class="hero-btns">
+                        <a href="#contato" class="btn-primary">🚀 Quero testar gratuitamente</a>
+                        <a href="#produto" class="btn-outline">Saiba mais</a>
+                    </div>
+                </header>
+                <figure class="hero-visual" aria-hidden="true">
+                    <div class="phone-mock">
+                        <div class="phone-screen">
+                            <div class="phone-bar">
+                                <div class="phone-bar-dot"></div>
+                                <div class="phone-bar-dot"></div>
+                                <div class="phone-bar-text"></div>
+                            </div>
+                            <div class="phone-badge">📦 Estoque em dia · 98 itens</div>
+                            <div class="phone-card">
+                                <div class="phone-card-icon" style="background:#e8f9f6;">🥤</div>
+                                <div class="phone-card-lines"><div class="phone-card-line"></div><div class="phone-card-line short"></div></div>
+                            </div>
+                            <div class="phone-card">
+                                <div class="phone-card-icon" style="background:#fff3e0;">🧴</div>
+                                <div class="phone-card-lines"><div class="phone-card-line"></div><div class="phone-card-line short"></div></div>
+                            </div>
+                            <div class="phone-card">
+                                <div class="phone-card-icon" style="background:#fce4ec;">⚠️</div>
+                                <div class="phone-card-lines"><div class="phone-card-line"></div><div class="phone-card-line short"></div></div>
+                            </div>
+                            <div class="phone-card">
+                                <div class="phone-card-icon" style="background:#e8f5e9;">✅</div>
+                                <div class="phone-card-lines"><div class="phone-card-line"></div><div class="phone-card-line short"></div></div>
+                            </div>
+                        </div>
+                    </div>
+                </figure>
+            </div>
+        </section>
+
+        <!-- ===== SOBRE NÓS ===== -->
+        <section class="section about-section" id="sobre">
+            <div class="section-inner">
+                <div class="about-grid">
+                    <div>
+                        <span class="section-label">Quem Somos</span>
+                        <h2 class="section-title">Nascemos para <span class="highlight">simplificar</span> o dia a dia do empreendedor</h2>
+                        <p style="color:var(--mid);line-height:1.75;margin-bottom:20px;">
+                            A CEIK Technology é uma startup acadêmica criada por estudantes do Curso Superior de Tecnologia em Análise e Desenvolvimento de Sistemas do Centro Universitário Piaget – UNIPIAGET Brasil, em 2026.
+                        </p>
+                        <p style="color:var(--mid);line-height:1.75;margin-bottom:32px;">
+                            Nossa missão surgiu de uma observação real: microempreendedores perdem tempo e dinheiro controlando estoque em cadernos e planilhas físicas. Desenvolvemos uma solução digital acessível, intuitiva para transformar essa realidade.
+                        </p>
+                        <div class="mvv-grid">
+                            <div class="mvv-card" data-aos>
+                                <div class="mvv-icon">🎯</div>
+                                <h3>Missão</h3>
+                                <p>Digitalizar e simplificar a gestão de estoque de pequenos negócios com tecnologia acessível a todos.</p>
+                            </div>
+                            <div class="mvv-card" data-aos>
+                                <div class="mvv-icon">🔭</div>
+                                <h3>Visão</h3>
+                                <p>Ser a plataforma de gestão preferida dos microempreendedores brasileiros até 2028.</p>
+                            </div>
+                            <div class="mvv-card" data-aos>
+                                <div class="mvv-icon">💎</div>
+                                <h3>Valores</h3>
+                                <p>Acessibilidade, simplicidade, inovação, transparência e comprometimento com o cliente.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-visual" data-aos>
+                        <div class="about-visual-icon">🚀</div>
+                        <h3>CEIK Technology</h3>
+                        <p>Criando o futuro digital para quem faz acontecer todos os dias — os microempreendedores brasileiros.</p>
+                        <div class="about-stats">
+                            <div class="about-stat">
+                                <strong>3</strong>
+                                <span>Integrantes na equipe</span>
+                            </div>
+                            <div class="about-stat">
+                                <strong>12+</strong>
+                                <span>Funcionalidades planejadas</span>
+                            </div>
+                            <div class="about-stat">
+                                <strong>PHP</strong>
+                                <span>Backend robusto e escalável</span>
+                            </div>
+                            <div class="about-stat">
+                                <strong>RN</strong>
+                                <span>React Native no front-end</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== POR QUE AUTOMATIZAR ===== -->
+        <section class="section problem-section" id="problemas">
+            <div class="section-inner">
+                <div class="text-center" style="margin-bottom:48px;">
+                    <span class="section-label" style="color:#7dd3fc;">O Problema</span>
+                    <h2 class="section-title" style="color:white;">Por que automatizar seu estoque?</h2>
+                    <p class="section-sub center">Pequenos negócios enfrentam grandes desafios no controle manual. Veja como a CEIK resolve isso.</p>
+                </div>
+                <div class="problems-grid">
+                    <article class="problem-card" data-aos>
+                        <span class="icon">📓</span>
+                        <h3>Fim do Caderno</h3>
+                        <p>Substitua anotações manuais e planilhas físicas por um registro digital seguro, acessível de qualquer lugar a qualquer hora.</p>
+                    </article>
+                    <article class="problem-card" data-aos>
+                        <span class="icon">🗑️</span>
+                        <h3>Evite Desperdícios</h3>
+                        <p>Alertas automáticos de vencimento para você não perder produtos e dinheiro no seu negócio. Seja avisado antes que seja tarde.</p>
+                    </article>
+                    <article class="problem-card" data-aos>
+                        <span class="icon">📱</span>
+                        <h3>Tudo no Celular</h3>
+                        <p>Feito para empreendedores que usam prioritariamente o celular para atividades comerciais. Sem complicação.</p>
+                    </article>
+                    <article class="problem-card" data-aos>
+                        <span class="icon">⏱️</span>
+                        <h3>Ganhe Tempo</h3>
+                        <p>Reduza horas gastas em controles manuais. Com a CEIK, registrar uma movimentação leva pouco tempo.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== PRODUTO ===== -->
+        <section class="section product-section" id="produto">
+            <div class="section-inner">
+                <div class="product-hero">
+                    <div>
+                        <span class="product-badge">📦 Sistema CEIK Stock</span>
+                        <h2 class="section-title">A solução completa para gestão de estoque</h2>
+                        <p style="color:var(--mid);line-height:1.75;margin-bottom:20px;">
+                            O <strong>CEIK Stock</strong> é um sistema de gestão de estoque com aplicativo React Native e backend em PHP, desenvolvido especialmente para microempreendedores, pequenos comerciantes e MEIs. Sem necessidade de instalação de dependências — acesse direto pelo app ou navegador.
+                        </p>
+                        <p style="color:var(--mid);line-height:1.75;margin-bottom:24px;">
+                            Com ele, você cadastra produtos, registra entradas e saídas, recebe alertas automáticos, gera pré-notas fiscais e ainda conta com um assistente virtual para te guiar — tudo em um único lugar, direto no seu celular ou computador.
+                        </p>
+                        <p style="font-weight:700;color:var(--dark);margin-bottom:10px;">Ideal para:</p>
+                        <div class="target-chips">
+                            <span class="target-chip">🛒 Mercearias</span>
+                            <span class="target-chip">🥩 Açougues</span>
+                            <span class="target-chip">💈 Salões de beleza</span>
+                            <span class="target-chip">🍕 Restaurantes</span>
+                            <span class="target-chip">👕 Lojas de roupa</span>
+                            <span class="target-chip">🧹 Limpeza e cosméticos</span>
+                        </div>
+                    </div>
+                    <div data-aos style="display:flex;justify-content:center;">
+                        <div style="background:linear-gradient(135deg,#f0f7ff,#e8f0fd);border-radius:24px;padding:40px;max-width:380px;width:100%;border:1.5px solid rgba(26,86,219,.12);">
+                            <div style="font-size:3rem;margin-bottom:16px;">📦</div>
+                            <h3 style="font-family:'Syne',sans-serif;font-size:1.5rem;font-weight:800;color:var(--dark);margin-bottom:12px;">CEIK Stock</h3>
+                            <p style="color:var(--mid);font-size:.93rem;line-height:1.7;margin-bottom:20px;">Sistema Web de Gestão de Estoque para Microempreendedores</p>
+                            <div style="display:flex;flex-direction:column;gap:10px;">
+                                <div style="display:flex;align-items:center;gap:10px;font-size:.88rem;color:var(--dark3);font-weight:500;">
+                                    <span style="color:var(--ceik-green);">✓</span> Planos acessíveis para MEIs
+                                </div>
+                                <div style="display:flex;align-items:center;gap:10px;font-size:.88rem;color:var(--dark3);font-weight:500;">
+                                    <span style="color:var(--ceik-green);">✓</span> App React Native + backend PHP
+                                </div>
+                                <div style="display:flex;align-items:center;gap:10px;font-size:.88rem;color:var(--dark3);font-weight:500;">
+                                    <span style="color:var(--ceik-green);">✓</span> Dados protegidos com LGPD
+                                </div>
+                                <div style="display:flex;align-items:center;gap:10px;font-size:.88rem;color:var(--dark3);font-weight:500;">
+                                    <span style="color:var(--ceik-green);">✓</span> Suporte via chatbot integrado
+                                </div>
+                            </div>
+                            <a href="#contato" class="btn-primary" style="margin-top:24px;width:100%;justify-content:center;">🚀 Começar agora</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== FUNCIONALIDADES ===== -->
+        <section class="section features-section" id="features">
+            <div class="section-inner">
+                <div class="text-center" style="margin-bottom:48px;">
+                    <span class="section-label">O que o sistema faz</span>
+                    <h2 class="section-title">Funcionalidades pensadas para <span class="highlight">você</span></h2>
+                    <p class="section-sub center">Cada funcionalidade foi desenhada a partir de conversas reais com microempreendedores brasileiros.</p>
+                </div>
+                <div class="features-grid">
+                    <article class="feature-card" data-aos>
+                        <div class="feature-icon">📷</div>
+                        <h3>Leitura de Código de Barras</h3>
+                        <p>Use a câmera do celular para registrar entradas e saídas rapidamente, ou digite o código manualmente.</p>
+                        <footer class="feature-footer"><small>RF04 · Identificação por câmera</small></footer>
+                    </article>
+                    <article class="feature-card" data-aos>
+                        <div class="feature-icon">🔔</div>
+                        <h3>Alertas Automáticos</h3>
+                        <p>Notificações de estoque mínimo e produtos próximos do vencimento, direto no seu celular.</p>
+                        <footer class="feature-footer"><small>RF07 / RF08 · Alertas inteligentes</small></footer>
+                    </article>
+                    <article class="feature-card" data-aos>
+                        <div class="feature-icon">📈</div>
+                        <h3>Relatórios e Histórico</h3>
+                        <p>Acompanhe entradas, saídas e movimentações com relatórios claros e exportáveis.</p>
+                        <footer class="feature-footer"><small>RF12 · Relatório de movimentações</small></footer>
+                    </article>
+                    <article class="feature-card" data-aos>
+                        <div class="feature-icon">☁️</div>
+                        <h3>100% na Nuvem</h3>
+                        <p>Acesse de qualquer dispositivo. Seus dados sempre seguros e sincronizados automaticamente.</p>
+                        <footer class="feature-footer"><small>RNF02 · Responsividade total</small></footer>
+                    </article>
+                    <article class="feature-card" data-aos>
+                        <div class="feature-icon">📄</div>
+                        <h3>Pré-Nota Fiscal</h3>
+                        <p>Gere documentos internos com dados de NF-e para facilitar a emissão de nota fiscal oficial com seu contador.</p>
+                        <footer class="feature-footer"><small>RF09 · Geração de pré-nota</small></footer>
+                    </article>
+                    <article class="feature-card" data-aos>
+                        <div class="feature-icon">🤖</div>
+                        <h3>Assistente Virtual</h3>
+                        <p>Chatbot integrado para suporte e orientação. Tire dúvidas sobre o sistema a qualquer hora.</p>
+                        <footer class="feature-footer"><small>RF10 · Chatbot de suporte</small></footer>
+                    </article>
+                    <article class="feature-card" data-aos>
+                        <div class="feature-icon">🔐</div>
+                        <h3>Segurança de Dados</h3>
+                        <p>Criptografia bcrypt, HTTPS e conformidade com a LGPD. Seus dados protegidos, sempre.</p>
+                        <footer class="feature-footer"><small>RNF04 / RNF08 · Segurança & LGPD</small></footer>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== DIFERENCIAIS ===== -->
+        <section class="diff-section" id="diferenciais">
+            <div class="section-inner">
+                <div class="text-center" style="margin-bottom:48px;">
+                    <span class="section-label" style="color:#7dd3fc;">Por que CEIK?</span>
+                    <h2 class="section-title" style="color:white;">Diferenciais competitivos</h2>
+                    <p class="section-sub center" style="color:rgba(255,255,255,.6);">Comparado a outras soluções do mercado, a CEIK entrega mais com menos complexidade.</p>
+                </div>
+                <div class="diff-grid">
+                    <div class="diff-card" data-aos>
+                        <div class="diff-check"><i class="fa-solid fa-check"></i></div>
+                        <h3>Planos acessíveis</h3>
+                        <p>Diferentes planos pensados para o bolso do microempreendedor, sem surpresas na fatura.</p>
+                    </div>
+                    <div class="diff-card" data-aos>
+                        <div class="diff-check"><i class="fa-solid fa-check"></i></div>
+                        <h3>Mobile-first</h3>
+                        <p>Projetado prioritariamente para celular, ao contrário de ERPs que exigem desktop.</p>
+                    </div>
+                    <div class="diff-card" data-aos>
+                        <div class="diff-check"><i class="fa-solid fa-check"></i></div>
+                        <h3>Zero configuração</h3>
+                        <p>Sem setup técnico. Acesse pelo App e comece em minutos.</p>
+                    </div>
+                    <div class="diff-card" data-aos>
+                        <div class="diff-check"><i class="fa-solid fa-check"></i></div>
+                        <h3>Interface intuitiva</h3>
+                        <p>Interface intuitiva. Projetado para usuários com qualquer nível de familiaridade tecnológica.</p>
+                    </div>
+                    <div class="diff-card" data-aos>
+                        <div class="diff-check"><i class="fa-solid fa-check"></i></div>
+                        <h3>Funciona offline</h3>
+                        <p>Diferente de planilhas online, Bem mais fácil e dinâmico.</p>
+                    </div>
+                    <div class="diff-card" data-aos>
+                        <div class="diff-check"><i class="fa-solid fa-check"></i></div>
+                        <h3>Chatbot de suporte</h3>
+                        <p>Assistente virtual integrado que nenhuma planilha ou caderno oferece.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== PLATAFORMAS ===== -->
+        <section class="platform-section" id="plataformas">
+            <div class="section-inner">
+                <div class="text-center">
+                    <span class="section-label">Tecnologia</span>
+                    <h2 class="section-title">Stack <span class="highlight">moderno e confiável</span></h2>
+                    <p class="section-sub center">O CEIK Stock roda em React Native no front-end e PHP no backend — combinação robusta e escalável para qualquer volume de uso.</p>
+                </div>
+                <div class="platform-grid">
+                    <div class="platform-card" data-aos>
+                        <div class="picon">📱</div>
+                        <h3>App React Native</h3>
+                        <p>Aplicativo nativo para Android e iOS com experiência mobile-first</p>
+                    </div>
+                    <div class="platform-card" data-aos>
+                        <div class="picon">🌐</div>
+                        <h3>Acesso Web</h3>
+                        <p>Interface acessível pelo navegador em qualquer computador ou tablet</p>
+                    </div>
+                    <div class="platform-card" data-aos>
+                        <div class="picon">⚙️</div>
+                        <h3>Backend PHP</h3>
+                        <p>Servidor robusto em PHP garantindo estabilidade, segurança e escalabilidade</p>
+                    </div>
+                    <div class="platform-card" data-aos>
+                        <div class="picon">🗄️</div>
+                        <h3>MySQL na Nuvem</h3>
+                        <p>Banco de dados relacional com backup automático e alta disponibilidade</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== FLUXO DE USO ===== -->
+        <section class="flow-section" id="fluxo">
+            <div class="section-inner">
+                <div class="text-center" style="margin-bottom:0;">
+                    <span class="section-label">Como funciona</span>
+                    <h2 class="section-title">Demonstração do <span class="highlight">fluxo de uso</span></h2>
+                    <p class="section-sub center">Simples assim. Do cadastro à gestão completa em poucos passos.</p>
+                </div>
+                <div class="flow-steps">
+                    <div class="flow-step" data-aos>
+                        <div class="flow-num">1</div>
+                        <h4>Crie sua conta</h4>
+                        <p>Cadastre-se com nome, e-mail e senha. Grátis e sem cartão.</p>
+                    </div>
+                    <div class="flow-step" data-aos>
+                        <div class="flow-num">2</div>
+                        <h4>Cadastre produtos</h4>
+                        <p>Adicione seus produtos com código de barras ou manualmente.</p>
+                    </div>
+                    <div class="flow-step" data-aos>
+                        <div class="flow-num">3</div>
+                        <h4>Registre movimentações</h4>
+                        <p>Entradas e saídas em até 3 cliques, com ou sem câmera.</p>
+                    </div>
+                    <div class="flow-step" data-aos>
+                        <div class="flow-num">4</div>
+                        <h4>Receba alertas</h4>
+                        <p>Notificações automáticas de estoque baixo e vencimento.</p>
+                    </div>
+                    <div class="flow-step" data-aos>
+                        <div class="flow-num">5</div>
+                        <h4>Analise e exporte</h4>
+                        <p>Relatórios completos e pré-notas fiscais com um clique.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== COMO CONTRATAR ===== -->
+        <section class="howto-section" id="contratar">
+            <div class="section-inner">
+                <div class="text-center" style="margin-bottom:0;">
+                    <span class="section-label">Acesso ao sistema</span>
+                    <h2 class="section-title">Como <span class="highlight">utilizar</span> o produto</h2>
+                    <p class="section-sub center">O acesso ao CEIK Stock é simples e sem burocracia. Veja como começar.</p>
+                </div>
+                <div class="howto-grid">
+                    <div class="howto-card" data-aos>
+                        <div class="howto-num">01</div>
+                        <div class="howto-icon">✉️</div>
+                        <h3>Entre em contato</h3>
+                        <p>Envie um e-mail para ceikpiaget@gmail.com ou preencha o formulário de contato abaixo solicitando acesso.</p>
+                    </div>
+                    <div class="howto-card" data-aos>
+                        <div class="howto-num">02</div>
+                        <div class="howto-icon">🔑</div>
+                        <h3>Receba suas credenciais</h3>
+                        <p>Nossa equipe ativará sua conta e você receberá um link de acesso ao sistema por e-mail.</p>
+                    </div>
+                    <div class="howto-card" data-aos>
+                        <div class="howto-num">03</div>
+                        <div class="howto-icon">📱</div>
+                        <h3>Acesse pelo navegador</h3>
+                        <p>Abra o link em qualquer dispositivo com internet.</p>
+                    </div>
+                    <div class="howto-card" data-aos>
+                        <div class="howto-num">04</div>
+                        <div class="howto-icon">🚀</div>
+                        <h3>Comece a usar</h3>
+                        <p>Cadastre seus produtos e em minutos seu estoque já está sendo gerenciado digitalmente.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== EQUIPE ===== -->
+        <section class="section team-section" id="equipe">
+            <div class="section-inner">
+                <div class="text-center" style="margin-bottom:48px;">
+                    <span class="section-label">As pessoas por trás</span>
+                    <h2 class="section-title">Nossa <span class="highlight">equipe</span></h2>
+                    <p class="section-sub center">Estudantes de ADS do UNIPIAGET comprometidos em criar tecnologia que transforma a realidade do empreendedor brasileiro.</p>
+                </div>
+                <div class="team-grid">
+                    <div class="team-card" data-aos>
+                        <div class="team-avatar">EM</div>
+                        <h3>Emilly Moura</h3>
+                        <span class="team-role">Engenharia de Software</span>
+                    </div>
+                    <div class="team-card" data-aos>
+                        <div class="team-avatar" style="background:linear-gradient(135deg,#10b981,#06b6d4);">CE</div>
+                        <h3>Caio Suppa</h3>
+                        <span class="team-role">Desenvolvimento Backend</span>
+                    </div>
+                    <div class="team-card" data-aos>
+                        <div class="team-avatar" style="background:linear-gradient(135deg,#f59e0b,#ef4444);">CE</div>
+                        <h3>Karine</h3>
+                        <span class="team-role">Design & UX</span>
+                    </div>
+                </div>
+                <p style="text-align:center;margin-top:32px;color:var(--mid);font-size:.9rem;">
+                    CST em Análise e Desenvolvimento de Sistemas · UNIPIAGET Brasil · 2026.1
+                </p>
+            </div>
+        </section>
+
+        <!-- ===== CTA FINAL ===== -->
+        <section class="cta-section">
+            <div class="cta-inner">
+                <h2>Pronto para organizar seu estoque?</h2>
+                <p>Planos acessíveis para microempreendedores. Sem complexidade. Comece hoje.</p>
+                <div style="display:flex;gap:12px;justify-content:center;flex-wrap:wrap;">
+                    <a href="#contato" class="btn-white">🚀 Quero testar agora</a>
+                    <a href="#features" class="btn-outline">Ver funcionalidades</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== CONTATO ===== -->
+        <section class="contact-section" id="contato">
+            <div class="section-inner">
+                <div class="text-center" style="margin-bottom:48px;">
+                    <span class="section-label">Fale Conosco</span>
+                    <h2 class="section-title">Entre em <span class="highlight">contato</span></h2>
+                    <p class="section-sub center">Tem dúvidas? Quer solicitar acesso ou saber mais? Nossa equipe responde rapidamente.</p>
+                </div>
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <h3 style="font-weight:700;font-size:1.1rem;margin-bottom:8px;color:var(--dark);">CEIK Technology</h3>
+                        <p style="color:var(--mid);font-size:.93rem;line-height:1.7;margin-bottom:4px;">Projeto acadêmico desenvolvido no Centro Universitário Piaget – UNIPIAGET Brasil</p>
+                        <p style="color:var(--mid);font-size:.93rem;line-height:1.7;margin-bottom:24px;">CST em Análise e Desenvolvimento de Sistemas · 2026.1 · Suzano – SP</p>
+                        <div class="contact-links">
+                            <a href="mailto:ceikpiaget@gmail.com" class="contact-link">
+                                <div class="contact-link-icon"><i class="fa-solid fa-envelope"></i></div>
+                                ceikpiaget@gmail.com
+                            </a>
+                            <a href="https://instagram.com/ceiktech" target="_blank" rel="noopener" class="contact-link">
+                                <div class="contact-link-icon"><i class="fa-brands fa-instagram"></i></div>
+                                @ceiktech no Instagram
+                            </a>
+                        </div>
+                    </div>
+                    <div class="contact-form">
+                        <h3>Solicitar acesso ou tirar dúvidas</h3>
+                        <div class="form-group">
+                            <label for="nome">Seu nome *</label>
+                            <input type="text" id="nome" placeholder="Ex: João da Silva" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">E-mail *</label>
+                            <input type="email" id="email" placeholder="seuemail@exemplo.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="negocio">Tipo de negócio</label>
+                            <select id="negocio">
+                                <option value="">Selecione...</option>
+                                <option>Mercearia / Minimercado</option>
+                                <option>Restaurante / Lanchonete</option>
+                                <option>Salão de beleza</option>
+                                <option>Loja de roupas / calçados</option>
+                                <option>Açougue / Peixaria</option>
+                                <option>Outro</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="mensagem">Mensagem *</label>
+                            <textarea id="mensagem" placeholder="Conte um pouco sobre seu negócio ou escreva sua dúvida..." required></textarea>
+                        </div>
+                        <button class="form-submit" onclick="handleFormSubmit(event)">✉️ Enviar mensagem</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="main-footer">
+        <div class="footer-inner">
+            <div class="footer-brand">
+                <img src="logoceikbranco2.png" alt="CEIK Technology" class="footer-logo-img">
+                <p>Criando o futuro digital para microempreendedores brasileiros.</p>
+                <div class="footer-social">
+                    <a href="mailto:ceikpiaget@gmail.com" title="E-mail" aria-label="E-mail">
+                        <i class="fa-solid fa-envelope"></i>
+                    </a>
+                    <a href="https://instagram.com/ceiktech" target="_blank" rel="noopener" title="Instagram" aria-label="Instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h4>Navegação</h4>
+                <ul>
+                    <li><a href="#sobre">Sobre Nós</a></li>
+                    <li><a href="#produto">O Produto</a></li>
+                    <li><a href="#features">Funcionalidades</a></li>
+                    <li><a href="#diferenciais">Diferenciais</a></li>
+                    <li><a href="#equipe">Equipe</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Contato</h4>
+                <ul>
+                    <li><a href="mailto:ceikpiaget@gmail.com">ceikpiaget@gmail.com</a></li>
+                    <li><a href="https://instagram.com/ceiktech" target="_blank" rel="noopener">@ceiktech</a></li>
+                    <li><a href="#contato">Formulário de contato</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <small>© 2026 CEIK Technology. Projeto UNIPIAGET · CST ADS 2026.1.</small>
+            <small>Desenvolvido com 💙 em Suzano – SP</small>
+        </div>
+    </footer>
+
+    <!-- Toast -->
+    <div class="toast" id="toast">
+        <span class="toast-icon">✅</span>
+        <span id="toast-msg">Mensagem enviada com sucesso!</span>
+    </div>
+
+    <script>
+        // Navbar scroll effect
+        window.addEventListener('scroll', () => {
+            document.getElementById('navbar').classList.toggle('scrolled', window.scrollY > 20);
+        });
+
+        // Mobile menu
+        document.getElementById('hamburger').addEventListener('click', function() {
+            const links = document.getElementById('nav-links');
+            links.classList.toggle('open');
+            this.setAttribute('aria-expanded', links.classList.contains('open'));
+        });
+
+        // Close mobile menu on link click
+        document.querySelectorAll('.nav-links a').forEach(a => {
+            a.addEventListener('click', () => {
+                document.getElementById('nav-links').classList.remove('open');
+            });
+        });
+
+        // AOS (simple scroll animation)
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); } });
+        }, { threshold: 0.12 });
+        document.querySelectorAll('[data-aos]').forEach(el => observer.observe(el));
+
+        // Form submit
+        function handleFormSubmit(e) {
+            e.preventDefault();
+            const nome = document.getElementById('nome').value.trim();
+            const email = document.getElementById('email').value.trim();
+            const msg = document.getElementById('mensagem').value.trim();
+            if (!nome || !email || !msg) {
+                showToast('⚠️ Por favor, preencha os campos obrigatórios.', false);
+                return;
+            }
+            const mailtoUrl = `mailto:ceikpiaget@gmail.com?subject=Contato via site - ${encodeURIComponent(nome)}&body=${encodeURIComponent('Nome: ' + nome + '\nE-mail: ' + email + '\n\nMensagem:\n' + msg)}`;
+            window.location.href = mailtoUrl;
+            showToast('✅ Abrindo seu e-mail...', true);
+        }
+
+        function showToast(message, success) {
+            const t = document.getElementById('toast');
+            document.getElementById('toast-msg').textContent = message;
+            t.classList.add('show');
+            setTimeout(() => t.classList.remove('show'), 3500);
+        }
+    </script>
+</body>
+</html>
